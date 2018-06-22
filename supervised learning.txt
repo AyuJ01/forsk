@@ -1,0 +1,71 @@
+labelled ds
+
+label - dependent values         y
+features - independent values    X
+supervised mc learning - predictions
+
+(germany,40,77000) - ?
+
+
+//Unsupervised mc learning
+Unlabelled DS
+
+
+
+//sklearn
+
+//data preprocessing
+	>import ds
+	>features labels
+	
+	>missing values
+	>encoding
+	>scaling
+	>split
+
+
+missing values handling - imputation
+imputation(missing values,strategy,axis)
+	>fit
+	>transform
+	
+	
+//categorical data
+
+-> textual data
+
+	-//label encoding - converting textual data into numerical form
+
+
+	-//OneHotEncoding
+
+	
+	
+	
+---/  Scaling
+
+	-> Min -max scaling:
+				//values lie b/w 0-1
+				Xsc = (X - Xmin)/(Xmax-Xmin)
+				
+				//used in neaural n/w,deep learning, img processing
+				
+	-> Standard scaling   // normalised form //normalised distribution
+							//values may be negative
+							
+				z = (X-u)/sigma
+				
+				
+				
+				
+				
+//Backward elimination
+
+y= 1(c) +mx
+
+>so we involve 1st column as 1				
+				
+---/ p-value :- what is the probability of a column in involve in decision making by chance
+				> if it is >5% then we discard it or drop it
+				
+				
