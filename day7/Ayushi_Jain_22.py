@@ -18,9 +18,9 @@ params = {
         "oauth_timestamp": int(time.time())
     }
 
-consumer = oauth2.Consumer(key="4An2yCQnINz57RC3e3vefArs5", secret="cjyQnI0vX0m6Wtm5noshNqPGY62dUcuwFYwDBVLuC9sgyVgC4O")
+consumer = oauth2.Consumer(key="API_KEY", secret="SECRET_KEY")
 
-token = oauth2.Token(key="3331576618-YI2x6JBO5JB1VWd10p8Pm7FhU4bDI6C10OMfyb7", secret="0HOU4UIe8LG8RjSPY8EKik123a7GwtifKAxJfzbXijsm6")
+token = oauth2.Token(key="TOKEN_KEY", secret="TOKEN_SECRET")
 
 params["oauth_consumer_key"] = consumer.key
 
